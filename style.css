@@ -75,3 +75,13 @@ main {
 }
 
 /* Seu código aqui */
+@media screen and (max-width: 600px) { 
+  section {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  textarea {
+    width: 50% !important;
+  }
+}
